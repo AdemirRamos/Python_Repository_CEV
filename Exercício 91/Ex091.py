@@ -56,3 +56,4 @@ print()
 for i, v in enumerate(ranking):
     print(f'No {i+1}ª lugar temos: {v[0]} com o valor "{v[1]}".')
     sleep(1)
+#corrija.
