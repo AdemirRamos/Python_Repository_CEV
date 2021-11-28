@@ -1,4 +1,4 @@
-print('Dicionário em Python')
+print('Dicionário Em Python')
 print()
 nome = input('Nome: ')
 média_pessoa = float(input(f'Média de {nome}: '))

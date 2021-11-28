@@ -1,0 +1,14 @@
+print('Progressão Aritmética (Versão 2.0)')
+print('')
+print('-=-' * 10)
+print('Gerador de PA')
+print('-=-' * 10)
+primeiro = int(input('Primeiro termo: '))
+razão = int(input('Razão: '))
+termo = primeiro
+cont = 1
+while cont <= 10:
+    print('{} -> '.format(termo), end='')
+    termo = termo + razão #Essa linha também poderia ser escrita assim: termo += razão.
+    cont += 1
+print('Fim!')

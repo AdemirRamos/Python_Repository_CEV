@@ -1,6 +1,5 @@
 print('Boletim Com Listas Compostas')
 print()
-
 ficha = list()
 while True:
     nome = str(input('Nome: '))
