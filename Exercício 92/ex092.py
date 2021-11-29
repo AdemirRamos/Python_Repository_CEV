@@ -21,3 +21,5 @@ else:
     print(f'O nome do (a) funcionário (a) é: {dados["nome"]}.')
     print(f'A CTPS do (a) funcionário é: o (a) funcionário (a) não possui CTPS.')
     print(f'A idade do (a) funcionário (a) é: {dados["idade"]}.')
+
+#A seguir, temos a resolução do Guanabara:
