@@ -11,7 +11,7 @@ números_lista[2] = 3
 
 #números_lista[4] = 7. Esse comando não irá funcionar pois não se pode adicionar um novo elemento a uma lista em uma posição não existente previamente.
 números_lista.append(7)
-#Para se adicionar um novo elemento (ainda não existente) à lista, se usa esse comando acima ['append()].
+#Para se adicionar um novo elemento (ainda não existente) à lista, se usa esse comando acima ['append()'].
 
 números_lista.sort()
 #Organiza os elementos da lista - números em ordem crescente; letras em ordem alfabética.
