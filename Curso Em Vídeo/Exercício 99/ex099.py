@@ -1,16 +1,17 @@
-import math
+import random
 print('Exercício 99')
 print()
 lista = list()
+lista_2 = list()
 
 def valores():
-    contador = math.randint(0, 10)
+    contador = random.randint(0, 10)
     print('Analisando os dados informados...')
     for c in range(0, contador):
-        lista.clear
         lista.append(contador)
-        print(f'{contador}', end='')
-        print('Ao todo, foram informados')
+        lista.clear
+    print(f'Ao todo, foram informados {len(lista)} valores.')
 
 valores()
 print(lista)
+print(f'O maior valor, entre os números na lista, foi: {max(lista)}.')
