@@ -4,7 +4,7 @@ print()
 print('Interactive Help:')
 #Para conseguir ajuda interativa, basta usar o comando/funcionalidade interna [do Python] "help()".
 #Toda vez que abrimos e fechamos parênteses após alguma palavra, isso quer dizer que a palavra em questão é uma função.
-#P. S.: Os comando "help" foram definidos como comentários apenas para não "atrapalhar" a execução do programa. 
+#P. S.: Os comandos "help" foram definidos como comentários apenas para não "atrapalhar" a execução do programa. 
 
 #help()
 
@@ -52,7 +52,7 @@ contador(2, 10, 2)
 #A "docstring" sempre começa após o comando "def".
 #Após o comando "def", basta você abrir e fechar aspas duplas 3 vezes e assim você terá a sua "docstring".
 
-print('Parêmetros Opcionais:')
+print('Parâmetros Opcionais:')
 
 def somar(a = 0, b = 0, c = 0):
 
@@ -99,8 +99,8 @@ teste()
 #Isso se deve ao fato de que "x" se trata de uma variável de escopo local, ou seja, ela só valerá para o local onde fora definida.
 
 #No caso acima, "n" é uma variável de "escopo global", isso é, ela é usada em diferentes pontos do programa principal.
-#Caso a variável n fosse declarada dentro de "def teste", o programa criaria uma variável a de escopo local.
-#Ao passo de que manteria a variável a de escopo global. A seguir temos um exemplo para ilustrar o que fora dito:
+#Caso a variável "n" fosse declarada dentro de "def teste", o programa criaria uma variável de escopo local.
+#Ao passo de que manteria a variável de escopo global. A seguir temos um exemplo para ilustrar o que fora dito:
 
 def função():
     n1 = 4
