@@ -1,4 +1,4 @@
-print('Aula 22 - Módulos e Pacotes')
+print('Módulos e Pacotes')
 print()
 
 # - Modularização é o ato de cronstruir módulos.
