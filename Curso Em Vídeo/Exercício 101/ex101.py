@@ -1,4 +1,4 @@
-print('Exercício 101')
+print('Função Para Votações')
 print()
 def voto():
     nascimento = int(input('Digite o seu ano de nascimento: '))
