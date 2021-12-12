@@ -16,7 +16,6 @@ print()
 def ficha(jogador = '"desconhecido"', gols = 0):
     print(f'O jogador {jogador} fez {gols} gol (s) no campeonato.')
     
-    
 n = str(input('Nome do jogador: '))
 g = str(input('Número de gols: '))
 
