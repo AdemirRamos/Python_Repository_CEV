@@ -51,7 +51,7 @@ print(f'O tripo de {num} é {triplo(num)}.')
 
 #Caso nem os módulos sejam suficiente para o que você deseja fazer, você pode recorrer aos "pacotes".
 
-#P. S.: Em outras linguagens de programação, os "pacotes" são chamados de "biblioteca".
+#P. S.: Em outras linguagens de programação, os "pacotes" são chamados de "bibliotecas".
 
 #Exemplo prático (sobre pacotes):
 
