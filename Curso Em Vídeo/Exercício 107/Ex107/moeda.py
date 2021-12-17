@@ -1,4 +1,4 @@
-def aumentar(preço, taxa, ):
+def aumentar(preço, taxa):
     res = preço * (preço * taxa / 100)
     return res
 
