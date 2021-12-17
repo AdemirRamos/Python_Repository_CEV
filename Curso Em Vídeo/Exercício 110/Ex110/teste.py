@@ -1,6 +1,6 @@
 #Resolução do Guanabara:
 
-print('Formatando Moedas Em Python (Parte 2)')
+print('Reduzindo Ainda Mais o Seu Progrma')
 print()
 
 import moeda
