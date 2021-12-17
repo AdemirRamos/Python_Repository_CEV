@@ -9,7 +9,9 @@ def fatorial(n, show = False):
     A função "fatorial" calcula o fatorial do número escolhido pelo usuário.
 
     - parâmetro n: representa o número escolhido para ter o seu fatorial apresentado;
+
     - parâmetro show: se receber "True", mostrará o cálculo do fatorial do número escolhido pelo usuário; se "False", não mostrará o cálculo;
+    
     - return: retorna o resultado final da função fatorial para o parâmetro da chamada da função.
 
     """
@@ -25,5 +27,9 @@ def fatorial(n, show = False):
         f *= c
     return f
 
-print(fatorial(5, False)) #Também poderia ser "show = True". / #O segundo parâmetro é opcional. Se "True", ,mostrará o cálculo; se "False", não mostrará.
+print(fatorial(5, False))
+
+#Também poderia ser "show = True".
+#O segundo parâmetro é opcional. Se "True", mostrará o cálculo; se "False", não mostrará.
+
 help(fatorial)
