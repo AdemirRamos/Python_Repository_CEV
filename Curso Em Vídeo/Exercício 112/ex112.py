@@ -15,4 +15,3 @@ def leia_dinheiro(message):
 
 preço = leia_dinheiro('Digite o preço: R$')
 resumo.math(preço, 35, 22)
-#
