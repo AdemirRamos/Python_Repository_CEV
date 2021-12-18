@@ -55,7 +55,8 @@ def arquivo_existe(nome):
 def criar_arquivo(nome):
     try:
         a = open(nome, 'wt+')
-        #Essa função tenta abrir o arquivo. / "wt+" == "write text". Cria um arquivo (do tipo "txt") - o "+" é o responsávle pela criação do arquivo.
+        #Essa função tenta abrir o arquivo.
+        #"wt+" == "write text". Cria um arquivo (do tipo "txt") - o "+" é o responsávle pela criação do arquivo.
         a.close()
 
     except:
