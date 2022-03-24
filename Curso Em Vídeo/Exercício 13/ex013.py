@@ -1,4 +1,3 @@
-
 print('Reajuste Salarial')
 print()
 
