@@ -10,7 +10,7 @@ escolhido = random.choice(lista)
 print('')
 print('O (a) aluno (a) escolhido (a) foi: {}.'.format(escolhido))
 print('')
-print('Os "str" estão posto OPCIONALMENTE.')
+print('Os "str" estão postos OPCIONALMENTE.')
 from random import choice
 n1 = input('Digite o nome do primeiro aluno: ')
 n2 = input('Digite o nome do segundo aluno: ')
